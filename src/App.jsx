@@ -1,10 +1,9 @@
-import {Post} from './post'
+import {Header} from '../src/components/header/header.component'
+import './global.css'
+
 export function App() {
   return (
-    <Post 
-      author="Marcelo Magalhães"
-      content="lorem ipsum dolor sit amet consectutet"
-    />
+    <Header/>
   )
 }
 
