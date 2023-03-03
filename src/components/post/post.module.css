@@ -1,0 +1,10 @@
+.post {
+  background: var(--gray-800);
+  border-radius: 8px;
+  padding: 2.5rem;
+}
+
+/* quero estilizar todo o post que antes dele tenha um post */
+.post + .post {
+  margin-top: 2rem;
+}
