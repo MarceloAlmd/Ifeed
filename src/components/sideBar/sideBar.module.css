@@ -14,26 +14,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-
   margin-top: calc(0px - 1.5rem - 6px); 
   /* alinhando a imagem do usuario de acordo com os caluclos do avatar 1.5 é metade de 3 e 6 é metade de 12 */
 }
 
-.avatar {
-  /* 
-  
-  box-sizing: initial; 
-  faz o oposto do boder-box, a bordar que colocamos espremeu a imagem e ela ficou menor, para reveter usamos isso 
-  mas também podemos fazer um calculo pegamos o tamanho da imagem que queremos, no caso 3rem e somar o tanto de borda que temos seria 4 + 4 + 2 + 2
-
-  */
-  width: calc(3rem + 12px);
-  height: calc(3rem + 12px);  
-
-  border-radius: 8px;
-  border: 4px solid var(--gray-800);
-  outline: 2px solid var(--green-500);
-}
 
 .profile strong {
   margin-top: 1rem;
