@@ -9,3 +9,16 @@
   align-items: flex-start;  /* sempre ficar alinhado ao topo */
 
 }
+
+/* 
+  quando a tela  for menor que 768px vamos aplicar isso
+  um tamanho legal para pegar dispositivos mobile
+*/
+@media (max-width: 768px) {
+  html {
+    font-size: 87.5%;
+  }
+  .wrapper {
+    grid-template-columns: 1fr;
+  }
+}
